@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Cosmic Chat - AI Assistant",
-  description: "A modern, space-themed AI chat interface",
+  title: "Cosmic AI - Space & Astronomy Assistant",
+  description: "Your personal AI assistant for exploring space, astronomy, and the cosmos.",
   icons: {
     icon: [
       { url: '/favicon.ico' },

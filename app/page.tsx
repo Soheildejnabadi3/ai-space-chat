@@ -32,7 +32,7 @@ export default function LandingPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white stars-bg">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 border-b border-gray-800 bg-gray-900/50 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -71,10 +71,10 @@ export default function LandingPage() {
           </div>
 
           {/* Hero text */}
-          <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">Explore the cosmos with AI.</h1>
+          <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">Explore the cosmos with AI</h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Your personal AI assistant for discovering the wonders of space and astronomy. Ask anything about the
-            universe and beyond.
+            Your personal AI assistant for discovering the wonders of space 
+            and astronomy. Ask anything about the universe and beyond.
           </p>
 
           {/* Chat input */}
@@ -83,7 +83,7 @@ export default function LandingPage() {
               <Input
                 value={prompt}
                 onChange={(e) => setPrompt(e.target.value)}
-                placeholder="Ask about black holes, galaxies, or anything cosmic..."
+                placeholder="Ask me anything cosmic..."
                 className="w-full bg-gray-800/50 border-gray-700 focus:border-blue-500 rounded-lg pl-4 pr-12 py-6 text-lg placeholder:text-gray-500"
               />
               <Button
@@ -134,7 +134,7 @@ export default function LandingPage() {
                 <div className="text-gray-500">Questions Answered</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-purple-400">99%</div>
+                <div className="text-3xl font-bold text-purple-400">97%</div>
                 <div className="text-gray-500">Accuracy Rate</div>
               </div>
               <div className="text-center">
@@ -148,4 +148,3 @@ export default function LandingPage() {
     </div>
   )
 }
-
