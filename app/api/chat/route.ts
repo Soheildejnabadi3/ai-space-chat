@@ -27,7 +27,7 @@ export async function POST(req: Request) {
 
     // Create the completion
     const response = await openai.chat.completions.create({
-      model: "gpt-3.5-turbo", // Using a more widely available model
+      model: "gpt-4.1-nano", // Using a more widely available model
       messages: [
         {
           role: "system",
